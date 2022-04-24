@@ -394,7 +394,26 @@ img {
 }
 
 /*==================== SKILLS ====================*/
+.skills__container {
+    row-gap: 0;
+}
 
+.skills__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
+}
+
+.skills__icon,
+.slills__arrow {
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+.skills__icon {
+    margin-right: var(--mb-0-75);
+}
 
 /*==================== QUALIFICATION ====================*/
 
