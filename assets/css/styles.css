@@ -798,7 +798,7 @@ img {
     background-image: url("../img/project-fish.gif");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80%;
+    background-size: 90%;
     padding-top: 3rem;
 
 }
@@ -1017,10 +1017,6 @@ img {
     .services__modal {
         padding: 0 .5rem;
     }
-
-    .project__bg {
-        background-size: 90%;
-    }
 }
 
 
@@ -1219,3 +1215,52 @@ img {
 
 
 /* For large devices */
+@media screen and (min-width:1024px) {
+
+    .header,
+    .main,
+    .footer__container {
+        padding: 0;
+    }
+
+    .home__blob {
+        width: 320px;
+    }
+
+    .home__social {
+        transform: translateX(-6rem);
+    }
+
+    .services__container {
+        grid-template-columns: repeat(3, 238px);
+    }
+
+    .portfolio__content {
+        column-gap: 5rem;
+    }
+
+    .swiper-portfolio-icon {
+        font-size: 3.5rem;
+    }
+
+    .swiper-button-prev {
+        left: -3.5rem;
+    }
+
+    .swiper-button-next {
+        right: -3.5rem;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets {
+        bottom: -4.5rem;
+    }
+
+    .contact__form {
+        width: 460px;
+    }
+
+    .contact__inputs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
